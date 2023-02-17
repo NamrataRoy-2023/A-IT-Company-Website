@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* NAVBAR */
+nav{
+    height: 70px;
+}
+
+/* SECTION 1 */
+.sec1{
+    width:100%;
+    background:url('../images/section 1 bg.png') no-repeat center;
+    background-size: cover;
+
+}
+#explore{
+    color: white;
+    padding-left: 50px;
+    padding-top: 125px;
+}
+#explore button{
+    font-size: small;
+    border-radius: 20px;
+    margin-left: 55px;
+    margin-top: 30px;
+    border-color: rgba(66, 60, 60, .2);
+    background-color: rgba(23, 21, 21, 0.2);
+    
+}
+#img1{
+    width: 850px;
+}
+
+/* SECTION 2, SECTION 4, SECTION 6 */
+.info{
+    background-color: #013574;
+    padding: 60px;
+}
+.info h2,p{
+    color: white;
+}
+.info p{
+    font-size: medium;
+}
+.info1{
+    padding: 30px;
+    border-style: dashed;
+    border-color:  #9ec1ed;
+}
+#learn{
+    border-color: white;
+    font-size: small;
+}
+.info img{
+    border-radius: 25px;
+}
+.sec4{
+    padding-bottom: 30px;
+}
+
+/* SECTION 3 */
+.sec3{
+    background-color: #030D42;
+    color: white;
+}
+.case{
+    text-align: left;
+}
+.sec3 img{
+    border-radius: 15px;
+    
+}
+.img1{
+    padding: 80px;
+    margin: 70px;
+}
+
+.about{
+    padding: 150px;
+    margin: 0px 90px 0px 270px;
+}
+.about1{
+    padding: 150px;
+    margin: 0px 270px 0px 90px;
+}
+
+/* SECTION 5 */
+
+.alum{
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+
+
+
+/* MEDIA QUARIES */
+
+@media (max-width: 1400px){
+    .about{
+        padding: 100px;
+        margin: 100px;
+    }
+    .about1{
+        padding: 100px;
+        margin: 100px;
+    }
+    .img1{
+        padding: 10px;
+        margin: 10px;
+    }
+}
+
+
+
+@media (max-width: 991px){
+    nav{
+        height: 60px;
+    }
+    #explore{
+        padding-top: 0px;
+        padding-left: 50px;
+    }
+    #explore button{
+        margin-bottom: 40px;
+    }
+    .about{
+        padding: 0px;
+        margin: 0px;
+    }
+    .about1{
+        padding: 0px;
+        margin: 0px;
+    }
+    .img1{
+        padding: 0px;
+        margin: 0px;
+    }
+}
+    
